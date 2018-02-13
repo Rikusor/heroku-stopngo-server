@@ -1,0 +1,33 @@
+{
+  "name": "heroku-stopngo-server",
+  "version": "0.0.1",
+  "description": "Back-end server to handle Stop 'N Go addon requests",
+  "main": "server.js",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riku Eteläniemi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "basic-auth": "^2.0.0",
+    "body-parser": "^1.18.1",
+    "cron": "^1.3.0",
+    "crypto": "^1.0.1",
+    "expire-array": "^1.1.0",
+    "express": "^4.15.4",
+    "forever": "^0.15.3",
+    "logfmt": "^1.2.0",
+    "mongoose": "^4.11.12",
+    "mongoose-unique-validator": "^1.0.6",
+    "nodemon": "^1.12.1",
+    "querystring": "^0.2.0",
+    "syslogd": "^1.1.2",
+    "through": "^2.3.8",
+    "typescript": "^2.5.2"
+  }
+}
