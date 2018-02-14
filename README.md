@@ -88,3 +88,7 @@ SALT=<ADDON_SSO_SALT>
 SERVER_URL=https://<ADDON_ID>:<ADDON_PASSWORD>@<ADDON_BASE_URL>
 ```
 5. Deploy code from https://github.com/Rikusor/heroku-stopngo-pages in to this app
+
+## Provision the add-on
+
+At this point you should be able to provision the add-on and all users who you've added as alpha testers, by using the heroku cli provision command with the addon_id you provided in the manifest.
