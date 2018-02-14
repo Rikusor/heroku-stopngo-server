@@ -47,7 +47,7 @@ module.exports = (req, res) => {
 
         res.json({
           config: {
-            ERROR_PAGE_URL: "https://stopngo-pages.herokuapp.com/error-page/" + subscription._id
+            ERROR_PAGE_URL: process.env.STOPNGO_PAGES_BASE_URL + "/error-page/" + subscription._id
           },
           log_drain_url: logServer + '/' + req.body.uuid,
           id: req.body.uuid,
